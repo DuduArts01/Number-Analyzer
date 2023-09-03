@@ -60,6 +60,7 @@ function finish(){
 
 function reset(){
     list.innerHTML = ''
+    res.innerHTML = ''
     numbers = []
 
 }
