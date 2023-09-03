@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Number Analyzer</h1>
+    </header>        
+    <section>
+        <div>
+            Number(1 to 100): <input type="number" id="numbertxt"> 
+            <input type="button" value="Add" onclick="add()">
+            <br><br><select name="list" id="list" size="6"></select>
+            <br><input type="button" value="Finish" onclick="finish()">
+            <input type="button" value="Reset" onclick="reset()">
+        </div>            
+        <div id="res">
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; DuduCode Tech</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
